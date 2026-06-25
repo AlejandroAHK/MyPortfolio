@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-content">
+      <div class="brand">Portfolio</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section-gradient">
+      <div class="container hero-grid reveal delay-1">
+        <div>
+          <p class="eyebrow">Hello! My name is</p>
+          <h1>Alex</h1>
+          <p class="hero-text">I build modern web experiences that help your business stand out and showcase top projects.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="button button-primary">My projects</a>
+            <a href="#contact" class="button button-secondary">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-card reveal delay-2">
+          <h2>Skills</h2>
+          <ul>
+            <li>Web development</li>
+            <li>UI/UX design</li>
+            <li>HTML / CSS / JavaScript</li>
+            <li>React / Vue / Tailwind</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-header">
+        <span>About</span>
+        <h2>I create beautiful and easy-to-use websites</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>I am a web developer who combines design and code. I work on projects from landing pages to large websites, focusing on usability, performance, and responsiveness.</p>
+          <p>I enjoy exploring new technologies and turning ideas into impressive user interfaces.</p>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <strong>5+</strong>
+            <span>years experience</span>
+          </div>
+          <div class="stat-card">
+            <strong>20+</strong>
+            <span>completed projects</span>
+          </div>
+          <div class="stat-card">
+            <strong>100%</strong>
+            <span>responsive design</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span>Projects</span>
+          <h2>Work I am proud of</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal delay-1">
+            <h3>Agency website</h3>
+            <p>Landing page with vibrant design and a user-friendly adaptive interface.</p>
+            <a href="#contact" class="project-link">Learn more</a>
+          </article>
+          <article class="project-card reveal delay-2">
+            <h3>E-commerce store</h3>
+            <p>Functional online shop with filters, product cards, and a shopping cart.</p>
+            <a href="#contact" class="project-link">Learn more</a>
+          </article>
+          <article class="project-card reveal delay-3">
+            <h3>Portfolio site</h3>
+            <p>Personal website with a work showcase and contact form.</p>
+            <a href="#contact" class="project-link">Learn more</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <div class="contact-grid reveal delay-1">
+        <div>
+          <div class="section-header">
+            <span>Contact</span>
+            <h2>Let's talk about your project</h2>
+          </div>
+          <p>Leave a message and I will respond as soon as possible. Ready to help with website development, redesign, or interface integration.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> newstepinfuture@gmail.com</li>
+            <li><strong>Phone:</strong> +46737134885</li>
+            <li><strong>Availability:</strong> full-time</li>
+          </ul>
+        </div>
+        <form class="contact-form">
+          <label>
+            Name
+            <input type="text" placeholder="Your name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="newstepinfuture@gmail.com" required>
+          </label>
+          <label>
+            Message
+            <textarea rows="5" placeholder="Describe your project" required></textarea>
+          </label>
+          <button type="submit" class="button button-primary">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Alex. Made with ❤️ for your portfolio.</p>
+    </div>
+  </footer>
+</body>
+</html>
